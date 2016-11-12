@@ -8,3 +8,5 @@ As of right now, the app has a dedicated sound for every letter key. If a user c
 # Paper.Js
 Paper.JS takes advantege of HTML's canvas element. Inside the canvas, a onKeyDown() event will trigger the creation of a circle randomly on the screen based on the size of the screen. This is accomplished with Paper.js's view attribute that allows the app to change based on the view size. The current max width, and height are stored in a variable and multiplied by Point.random(). Then a new circle is created and given the random x,y coordinate, color, and sound.
 
+# Howler.JS
+Howler was used to to play audo across all browsers. The sounds are attached to the specific key inside of the keyData object.
